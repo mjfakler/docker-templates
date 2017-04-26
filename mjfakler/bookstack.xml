@@ -12,8 +12,8 @@
         BookStack can be found at https://www.bookstackapp.com/[br][br]
     </Description>
     <Registry>https://hub.docker.com/r/solidnerd/bookstack/</Registry>
-    <GitHub>hhttps://github.com/solidnerd/docker-bookstack</GitHub>
-    <Repository>solidnerd/docker-bookstack</Repository>
+    <GitHub>https://github.com/solidnerd/docker-bookstack</GitHub>
+    <Repository>BookStackApp/BookStack</Repository>
     <BindTime>true</BindTime>
     <Privileged>false</Privileged>
     <Environment/>
