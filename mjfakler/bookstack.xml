@@ -13,7 +13,7 @@
     </Description>
     <Registry>https://hub.docker.com/r/solidnerd/bookstack/</Registry>
     <GitHub>https://github.com/solidnerd/docker-bookstack</GitHub>
-    <Repository>BookStackApp/BookStack</Repository>
+    <Repository>solidnerd/bookstack/</Repository>
     <BindTime>true</BindTime>
     <Privileged>false</Privileged>
     <Environment/>
