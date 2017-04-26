@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container version="2">
+    <Beta>False</Beta>
+    <Category>HomeAutomation:</Category>
+    <Name>bookstack</Name>
+    <Overview>A platform for storing and organising information and documentation.
+    </Overview>
+    <license>MIT</license>
+    <Project>https://www.bookstackapp.com/</Project>
+    <Description>
+        A platform for storing and organising information and documentation. General information and documentation for
+        BookStack can be found at https://www.bookstackapp.com/[br][br]
+    </Description>
+    <Registry>https://hub.docker.com/r/solidnerd/bookstack/</Registry>
+    <GitHub>hhttps://github.com/solidnerd/docker-bookstack</GitHub>
+    <Repository>solidnerd/docker-bookstack</Repository>
+    <BindTime>true</BindTime>
+    <Privileged>false</Privileged>
+    <Environment/>
+    <Networking>
+        <Mode>host</Mode>
+        <Publish/>
+    </Networking>
+    <Data>
+        <Volume>
+            <HostDir>/mnt/cache/appdata/bookstack/</HostDir>
+            <ContainerDir>/config</ContainerDir>
+            <Mode>rw</Mode>
+        </Volume>
+    </Data>
+    <WebUI>http://[IP]:[PORT:8124]</WebUI>
+    <Banner></Banner>
+    <Icon></Icon>
+</Container>
